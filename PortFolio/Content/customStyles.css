@@ -1,0 +1,218 @@
+﻿/******************************** Body ***************************************/
+html, body {
+    width: 100%;
+    min-width: 1200px !important;
+    height: 100%;
+    max-width: 1600px !important;
+    margin: 0 auto;
+    color:black;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, 
+.col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, 
+.col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, 
+.col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, 
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, 
+.col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.font_4 {
+    font: normal normal normal 30px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    color: #182153;
+}
+
+.font_5 {
+    font: normal normal normal 20px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif;
+    color: #182153;
+}
+
+.font_6 {
+    font: normal normal normal 14px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif;
+    color: #182153;
+    line-height :1.8em;
+    font-weight : 600;
+}
+
+.font_7{
+    font: normal normal normal 18px/1.6em avenir-lt-w01_35-light1475496,sans-serif;
+    color: darkslateblue;
+}
+
+.padding-t-90 {
+padding-top:90px;
+}
+
+.padding-l-85{
+padding-left:85px;
+}
+
+.font_8 {
+    font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    color: #182153;
+}
+
+.padding-t-65{
+    padding-top:65px;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.pullright{
+    float:right;
+}
+
+.margin-l-r-5{
+    margin:0px 7px 0px 7px;
+}
+
+.padding-t-b-43{
+    padding-top:42px;
+    padding-bottom:43px;
+}
+
+.navCaptions{
+        letter-spacing: 0.2em;
+            text-align: center;
+}
+
+.border1{
+    border-top: 1px solid #ddd;
+     margin: 0 0 0 0 !important;
+}
+
+.border2{
+    border-top: 1px solid white;
+     margin: 0 0 0 0 !important;
+}
+
+.border-right{
+   border-right: 1px solid #ccc;
+    margin-right: 0;
+}
+
+.margin-t-b-50{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.padding-l-53{
+    padding-left:53px;
+}
+
+.padding-r-53{
+    padding-right:53px;
+}
+
+.margin-t-7{
+    margin-top:7px;
+}
+
+.margin-b-20{
+    margin-bottom:20px;
+}
+
+.text-right{
+    text-align:right;
+}
+/******************************** header and navigation bar ***************************************/
+.fixheader {
+    position: fixed !important;
+    top: 0; 
+    left: 0; 
+    right: 0;
+    bottom: 0;
+    padding:30px;
+    height:100px;
+    overflow:hidden;
+    z-index: 1;
+    background-color:white;
+}
+
+.fixheader .headertop {
+font : normal normal normal 30px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+color : #182153;
+padding-left: 28px;
+}
+
+.fixheader ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color:#182153;
+}
+
+.fixheader li {
+    float: left;
+    width: 135px;
+}
+
+.fixheader li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.fixheader li a:hover {
+    color:#AEb4d4;
+    text-decoration-line : none;
+}
+
+/******************************** Profile Section ***************************************/
+
+.mainsection {
+    margin-top:100px;
+    padding-left:205px;
+    padding-right:205px;
+    background-color:rgba(24, 33, 83, 1);
+    /*background-image :url("/Content/images/purplebackground.jpg");*/
+    /*background-repeat: no-repeat;*/
+    height:520px;
+}
+
+.profilepic{
+    height:470px;
+    width:470px;
+    background-color:#c5c8d7;
+    margin-top:50px;
+}
+
+.profileinfo {
+     height:470px;
+    width:470px;
+    background-color:rgba(241, 241, 241, 1);
+     margin-top:50px;
+}
+
+.connectON{
+    width:940px;
+    background-color:rgba(24, 33, 83, 1);
+    height:57px;
+    margin-left:205px;
+    margin-right:205px;
+}
+
+.profile2{
+    background-color:rgba(241, 241, 241, 1);
+}
+
+.aboutME{
+    
+    margin-top: 90px;
+    text-align:center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 90px;
+}
+
+.aboutmeText{
+    word-wrap: break-word;
+    line-height: 1.6em;
+}
